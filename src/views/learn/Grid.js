@@ -1,4 +1,5 @@
 import React from "react";
+import GoBack from "../../components/GoBack";
 export default function Grid() {
    return (
       <div className="grid h-screen place-items-center">
@@ -27,6 +28,7 @@ export default function Grid() {
                Mollitia, facilis.
             </p>
          </div>
+         <GoBack />
       </div>
    );
 }
