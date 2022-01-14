@@ -9,10 +9,10 @@
 }
 
 .learn-wrapper {
-   @apply flex py-2 space-x-4;
+   @apply flex justify-between py-2 space-x-2;
 }
 .learn-button {
-   @apply px-3 py-3 bg-blue-200 rounded-lg;
+   @apply justify-between px-3 py-3 text-center rounded-lg odd:bg-slate-50 even:bg-sky-400;
 }
 .btn {
    @apply px-5 py-3 font-semibold text-gray-200 rounded-lg shadow-lg focus:ring focus:ring-white focus:outline-none;

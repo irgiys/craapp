@@ -12,8 +12,8 @@ export default function Login() {
    };
    return (
       <Layout>
-         <div className="w-2/3 overflow-hidden bg-white rounded-lg md:w-1/3">
-            <h1 className="px-4 py-3 text-2xl uppercase bg-gray-100 border-b-2 border-gray-300">
+         <div className="w-full mx-3 overflow-hidden bg-white rounded-lg sm:w-2/3 ">
+            <h1 className="px-4 py-3 text-base uppercase bg-gray-100 border-b-2 border-gray-300 sm:text-2xl">
                halo
             </h1>
             <div className="w-full px-4 py-4 ">
@@ -31,7 +31,7 @@ export default function Login() {
                   placeholder="Password heere"
                />
 
-               <div className="flex justify-between pt-5 pb-2">
+               <div className="flex justify-between pt-5 pb-2 text-sm sm:text-base ">
                   <Checkbox label={"Remember me"} forInput="remember" />
                   <h1>Forgot Password</h1>
                </div>

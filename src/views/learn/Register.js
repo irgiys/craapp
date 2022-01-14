@@ -12,7 +12,7 @@ export default function Register() {
    };
    return (
       <Layout>
-         <div className="overflow-hidden bg-white rounded-lg w-2/2 md:w-1/2">
+         <div className="overflow-hidden bg-white rounded-lg xs:w-full md:w-2/2 md:w-1/2">
             <h1 className="px-4 py-3 text-2xl uppercase bg-gray-100 border-b-2 border-gray-300">
                register
             </h1>
