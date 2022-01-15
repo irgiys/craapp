@@ -33,6 +33,14 @@ export default function Learn() {
                   <NavLink to="/learn/grid">Griddd</NavLink>
                </div>
             </div>
+            <div className="learn-wrapper">
+               <div className="learn-button">
+                  <NavLink to="/learn/switch">Switcherr</NavLink>
+               </div>
+               <div className="w-4/5 learn-button">
+                  <NavLink to="/learn/glowink">Glowink</NavLink>
+               </div>
+            </div>
          </div>
       </div>
    );

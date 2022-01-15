@@ -12,7 +12,7 @@ export default function Login() {
    };
    return (
       <Layout>
-         <div className="w-full mx-3 overflow-hidden bg-white rounded-lg sm:w-2/3 ">
+         <div className="overflow-hidden bg-white rounded-lg  sm:w-96">
             <h1 className="px-4 py-3 text-base uppercase bg-gray-100 border-b-2 border-gray-300 sm:text-2xl">
                halo
             </h1>
