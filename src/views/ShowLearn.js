@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import Card from "./learn/Card";
 import CardMessage from "./learn/CardMessage";
+import Fonts from "./learn/Fonts";
 import Glowink from "./learn/Glowink";
 import Grid from "./learn/Grid";
 import Login from "./learn/Login";
@@ -33,6 +34,9 @@ export default function ShowLearn() {
    }
    if (slug === "glowink") {
       return <Glowink />;
+   }
+   if (slug === "fonts") {
+      return <Fonts />;
    }
    return <div>Hello</div>;
 }
